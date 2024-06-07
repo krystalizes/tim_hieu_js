@@ -12,7 +12,7 @@ console.log(a); // ReferenceError: a is not defined
     var b = 0;
 }
 console.log(b); // 0
-// local scope : var, function
+// function scope : var, function
 (function myFunction() {
     let a = 0;
     console.log(a); // 0

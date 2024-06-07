@@ -30,8 +30,12 @@ console.log(mappedArr);
 let filteredArr = arr4.filter(x => x > 1); // [2, 3]
 console.log(filteredArr);
 // trả về 1 kết quả duy nhất sau khi thực hiện tính toán giữa các phần tử của mảng
-let reducedValue = arr4.reduce((acc, curr) => acc + curr); // 6
-console.log(reducedValue);
+const numbers = [175, 50, 25];
+document.getElementById("demo").innerHTML = numbers.reduce(myFunc);
+function myFunc(total, num) {
+  return total - num;
+}
+console.log(reducedValue); // 100
 // trả về chỉ số đầu tiên tìm thấy 
 console.log(arr4.indexOf(2)); // 1
 // tìm kiếm phần tử trong mảng

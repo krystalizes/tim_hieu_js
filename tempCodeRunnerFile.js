@@ -1,6 +1,8 @@
-function b() {
-    "use strict";
-    this.a = 2; // TypeError: Cannot set properties of undefined (setting 'a')
+hello("bao",goodbye);
+function hello(person,callback){
+    console.log(`hello ${person}`);
+    callback();
 }
-b();
-console.log(a);
+function goodbye(){
+    console.log("goodbye");
+}

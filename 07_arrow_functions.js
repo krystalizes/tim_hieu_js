@@ -30,5 +30,5 @@ const Cat = function(name, sound) {
       }, 500);
     };
 }
-const kitty = new Cat('Miu', 'Mrrooowww');
+const kitty = new Cat('Miu', 'Meowww');
 kitty.annoy();

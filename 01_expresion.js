@@ -2,12 +2,15 @@
 let a = 10 + 20;
 console.log(a);
 //string
-let greeting = "Hello"+"World";
+let greeting = "Hello";
 console.log(greeting);
 //compare
 let age = 5;
 let isAdult = age > 18;
 console.log(isAdult);
+//conditional
+let x = 2;
+let result = (x > 0) ? "yes" : "no";
 //function
 const number = function (num){
     return num;

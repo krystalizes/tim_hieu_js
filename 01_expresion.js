@@ -1,15 +1,9 @@
-//khai báo
-let x = 5;
-console.log(x);
 //phép tính
 let a = 10 + 20;
 console.log(a);
 //string
-let greeting = "Hello";
+let greeting = "Hello"+"World";
 console.log(greeting);
-//boolean
-let boolean=true;
-console.log(boolean);
 //compare
 let age = 5;
 let isAdult = age > 18;
@@ -22,10 +16,11 @@ let result=ab(4);
 console.log(result);
 //array
 let fruits = ["apple", "banana", "cherry"];
-console.log(fruits);
+console.log(fruits[0]);
 //object
 let person = {
     firstName: "John",
     lastName: "Doe"
 };
-console.log(person);
+let fullName = person.firstName + " " + person.lastName;
+console.log(fullName);

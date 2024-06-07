@@ -1,2 +1,1 @@
-const myArr = [1,2,3,4,,,];
-console.log(myArr);
+console.log(typeof(1234n));

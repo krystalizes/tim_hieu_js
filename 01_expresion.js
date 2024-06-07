@@ -9,11 +9,10 @@ let age = 5;
 let isAdult = age > 18;
 console.log(isAdult);
 //function
-function ab(num){
+const number = function (num){
     return num;
 };
-let result=ab(4);
-console.log(result);
+console.log(number(4));
 //array
 let fruits = ["apple", "banana", "cherry"];
 console.log(fruits[0]);

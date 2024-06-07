@@ -19,7 +19,7 @@ function b() {
 }
 b();
 console.log(a);
-// aplly, call, bind
+// aplly, call, bind: truyền 1 object vào 1 object method như 1 dối số
 const person1 = {
     fullName: function() {
       return this.firstName + " " + this.lastName;
@@ -30,10 +30,10 @@ const person2 = {
     firstName: "Mary",
     lastName: "Doe"
 } 
-// This will return "Mary Doe":
-person.fullName.apply(person2);
-//person.fullName.call(person2);
-//person.fullName.bind(person2);
+// "Mary Doe":
+person1.fullName.apply(person2);
+//person1.fullName.call(person2);
+//person1.fullName.bind(person2);
 
 //event 
 <button onclick="this.style.display='none'">

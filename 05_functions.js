@@ -14,7 +14,8 @@ console.log(greet('Bob')); // "Hello, Bob!"
 //arrow function: rút gọn hàm
 hello = () => {
     return "Hello World!";
-  }
+}
+console.log(hello());
 //anonymous function: không có tên
 var greet = function () { 
     console.log("Hello"); 

@@ -42,5 +42,5 @@ console.log(rect1.a);
 const rect2 = new Rectangle2(10, 5);
 rect2.print(); // cần instance
 console.log(rect1.area); // Output: 50
-rect1.width = 20;
+rect1.width = 20 ;
 console.log(rect1.area); // Output: 200

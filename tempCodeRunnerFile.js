@@ -1,8 +1,4 @@
-hello("bao",goodbye);
-function hello(person,callback){
-    console.log(`hello ${person}`);
-    callback();
+{
+    var b = 0;
 }
-function goodbye(){
-    console.log("goodbye");
-}
+console.log(b);

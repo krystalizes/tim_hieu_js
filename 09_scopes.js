@@ -14,7 +14,7 @@ console.log(a); // ReferenceError: a is not defined
 console.log(b); // 0
 // function scope : var, function
 (function myFunction() {
-    let a = 0;
+    var a = 0;
     console.log(a); // 0
 }());
 console.log(a); // ReferenceError: a is not defined
